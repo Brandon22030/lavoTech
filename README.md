@@ -2,7 +2,13 @@
 
 ## Project Overview
 
-This is a modern web application built using cutting-edge web technologies. The project aims to provide a robust, scalable, and performant solution for [specific purpose].
+LavoTech is a modern web-based dry cleaning service application, developed by Leidon's Bear. Our mission is to revolutionize the clothing cleaning experience by offering a service that is:
+
+- **Convenient**: 100% online booking and tracking
+- **Professional**: Expertise in handling all types of textiles
+- **Ecological**: Commitment to sustainable cleaning practices
+
+Our vision is to simplify our clients' lives while preserving the quality and durability of their clothing.
 
 ## Prerequisites
 
@@ -46,6 +52,14 @@ The application will be available at `http://localhost:5173`
 - `public/`: Static assets
 - `vite.config.ts`: Vite configuration
 - `tailwind.config.js`: Tailwind CSS configuration
+
+## Key Features
+
+- **Online Booking**: Order your dry cleaning service with just a few clicks
+- **Real-Time Tracking**: Follow the status of your clothes at every stage of the process
+- **Eco-Friendly Approach**: Use of environmentally respectful cleaning products
+- **Intuitive User Interface**: Modern and easy-to-use design
+- **Account Management**: Order history, personalized preferences
 
 ## Technologies Used
 
@@ -97,8 +111,22 @@ npm run build
 
 [Specify your license, e.g., MIT]
 
-## Contact
+## Contact & Support
 
-[Your Name/Organization]
-- Email: [contact email]
-- Project Link: [repository URL]
+**Leidon's Bear**
+- **Email**: support@lavotech.com
+- **Website**: https://lavotech.com
+- **Project Repository**: https://github.com/leidons-bear/lavotech
+
+## Support Our Project
+
+If you find LavoTech useful, consider:
+- ⭐ Starring our GitHub repository
+- 🐛 Reporting bugs or suggesting features
+- 💡 Contributing to the project
+
+## Legal
+
+- **Terms of Service**: [Link to ToS]
+- **Privacy Policy**: [Link to Privacy Policy]
+- **License**: MIT License
