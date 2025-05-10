@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# LavoTech Project
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/ffd110f7-fd30-4d7e-91f0-7e5984ea8519
+This is a modern web application built using cutting-edge web technologies. The project aims to provide a robust, scalable, and performant solution for [specific purpose].
 
-## How can I edit this code?
+## Prerequisites
 
-There are several ways of editing your application.
+Before you begin, ensure you have the following installed:
+- Node.js (v18 or later)
+- npm (v9 or later)
+- Git
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ffd110f7-fd30-4d7e-91f0-7e5984ea8519) and start prompting.
+### 1. Clone the Repository
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+git clone <YOUR_REPOSITORY_URL>
+cd lavotech
+```
 
-**Use your preferred IDE**
+### 2. Install Dependencies
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 3. Development Server
 
-Follow these steps:
+Start the development server with hot-reloading:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+- `src/`: Source code directory
+  - `components/`: Reusable React components
+  - `pages/`: Page-level components
+  - `utils/`: Utility functions
+  - `styles/`: Global and component-specific styles
+- `public/`: Static assets
+- `vite.config.ts`: Vite configuration
+- `tailwind.config.js`: Tailwind CSS configuration
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Technologies Used
 
-## What technologies are used for this project?
+- **Frontend Framework**: React
+- **Build Tool**: Vite
+- **Language**: TypeScript
+- **Styling**: 
+  - Tailwind CSS
+  - shadcn-ui
+- **State Management**: [Add if applicable]
+- **Routing**: [Add if applicable]
 
-This project is built with:
+## Available Scripts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `npm run dev`: Start development server
+- `npm run build`: Create production build
+- `npm run preview`: Preview production build
+- `npm run lint`: Run ESLint
+- `npm run test`: Run tests [if applicable]
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/ffd110f7-fd30-4d7e-91f0-7e5984ea8519) and click on Share -> Publish.
+### Build for Production
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+npm run build
+```
 
-Yes, you can!
+### Deployment Options
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. **Static Hosting**
+   - Netlify
+   - Vercel
+   - GitHub Pages
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+2. **Server Deployment**
+   - Node.js server
+   - Docker container
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+[Specify your license, e.g., MIT]
+
+## Contact
+
+[Your Name/Organization]
+- Email: [contact email]
+- Project Link: [repository URL]
